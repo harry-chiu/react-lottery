@@ -12,8 +12,8 @@
 你有以下幾種方式可以體驗這個「抽獎 APP」。<br />
 
 ### On Browser
-
-你可以直接點選連結體驗「[抽獎 APP](https://harry-chiu.github.io/react-lottery/)」！<br />
+[DEMO on Browser](https://harry-chiu.github.io/react-lottery/)<br />
+你可以直接點選上方連結體驗「[抽獎 APP](https://harry-chiu.github.io/react-lottery/)」！<br />
 
 ### On Local
 
