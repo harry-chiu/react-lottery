@@ -65,7 +65,7 @@ npm start
 
 ## 技術
 
-React
-Redux
-React-Redux
-Styled-Components
+- React
+- Redux
+- React-Redux
+- Styled-Components
