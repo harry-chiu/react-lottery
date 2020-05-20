@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Lottery
 
-## Available Scripts
+使用 React 編寫的「抽獎 APP」，
+可以自行設定抽獎時間，
+並在倒數結束後從眾多的 Player 中，
+抽出一位幸運兒！
 
-In the project directory, you can run:
+![Imgur](https://i.imgur.com/i9C7cgr.png)
 
-### `npm start`
+## DEMO
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+你有以下幾種方式可以體驗這個「抽獎 APP」。
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### On Browser
 
-### `npm test`
+你可以直接點選連結體驗「[抽獎 APP](https://harry-chiu.github.io/react-lottery/)」！
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### On Local
 
-### `npm run build`
+或是將專案 Clone 至你的電腦，
+請遵循以下步驟。
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 1. Clone 「抽獎 APP」專案
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+為了順利啟動專案，
+第一個選擇是點選 Github 的 `Download ZIP`，
+將專案直接下載至你的電腦。
+![Imgur](https://i.imgur.com/xHtxR5N.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+第二個選擇是開啟 terminal / cmd，
+前往你要放置專案的目錄並輸入：
 
-### `npm run eject`
+```
+git clone https://github.com/harry-chiu/react-lottery.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+現在你已經擁有「抽獎 APP」的專案了。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 2. 安裝依賴的 Package
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**`注意：這個步驟必須先安裝 npm`**
+擁有了專案之後，
+我們還需要安裝專案所依賴的 Package。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+現在開啟你的 terminal / cmd，
+到「抽獎 APP」的目錄下輸入：
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+等待 npm 將依賴的 package 都安裝完成後，
+就可以進行下一個步驟！
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 3. 啟動專案
 
-### Code Splitting
+現在我們的專案已經準備就緒了，
+接著開啟 terminal / cmd 在專案的目錄底下輸入：
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+npm start
+```
 
-### Analyzing the Bundle Size
+現在你可以開始體驗「抽獎 APP」了！
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 技術
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+React
+Redux
+React-Redux
+Styled-Components
