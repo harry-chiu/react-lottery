@@ -93,6 +93,18 @@ const Counter = () => {
   const countdown = () => {
     dispatch(addFakePlayer());
 
+    if (minutes === 0 && seconds === 0) {
+      setDelay(null);
+
+      if (players.length) {
+        dispatch(setWinner(players));
+      } else {
+        alert('Need at least 1 player to start lottery');
+      }
+
+      return;
+    }
+
     if (seconds === 0) {
       setMinutes(minutes - 1);
       setSeconds(59);
@@ -100,12 +112,6 @@ const Counter = () => {
 
     if (seconds > 0) {
       setSeconds(seconds - 1);
-
-      if (minutes === 0 && seconds - 1 === 0) {
-        setDelay(null);
-        dispatch(setWinner(players));
-        return;
-      }
     }
   };
 
