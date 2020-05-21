@@ -11,24 +11,24 @@
 
 你可以在抽獎 APP 設定倒數時間，<br />
 最高上限為 60 分鐘。<br />
-每秒會在 Player 名單加入新的 Plaery，<br />
+每秒會在 Player 名單加入新的 Player<br />
 倒數結束後會在名單中找到一位 Winner！<br />
 
 ## DEMO
 
 你有以下幾種方式可以體驗這個「抽獎 APP」。<br />
 
-### On Browser
+## DEMO On Browser
 
 [DEMO on Browser](https://harry-chiu.github.io/react-lottery/)<br />
 你可以直接點選上方連結體驗「[抽獎 APP](https://harry-chiu.github.io/react-lottery/)」！<br />
 
-### On Local
+## DEMO On Local
 
 或是將專案 Clone 至你的電腦，<br />
 請遵循以下步驟。<br />
 
-#### 1. Clone 「抽獎 APP」專案
+### 1. Clone 「抽獎 APP」專案
 
 為了順利啟動專案，<br />
 第一個選擇是點選 Github 的 `Download ZIP`，<br />
@@ -44,7 +44,7 @@ git clone https://github.com/harry-chiu/react-lottery.git
 
 現在你已經擁有「抽獎 APP」的專案了。<br />
 
-#### 2. 安裝依賴的 Package
+### 2. 安裝依賴的 Package
 
 **`注意：這個步驟必須先安裝 npm`**<br />
 擁有了專案之後，<br />
@@ -60,7 +60,7 @@ npm install
 等待 npm 將依賴的 package 都安裝完成後，<br />
 就可以進行下一個步驟！<br />
 
-#### 3. 啟動專案
+### 3. 啟動專案
 
 現在我們的專案已經準備就緒了，<br />
 接著開啟 terminal / cmd 在專案的目錄底下輸入：<br />
