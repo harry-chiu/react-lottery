@@ -7,11 +7,19 @@
 
 ![Imgur](https://i.imgur.com/i9C7cgr.png)
 
+## 說明
+
+你可以在抽獎 APP 設定倒數時間，<br />
+最高上限為 60 分鐘。<br />
+每秒會在 Player 名單加入新的 Plaery，<br />
+倒數結束後會在名單中找到一位 Winner！<br />
+
 ## DEMO
 
 你有以下幾種方式可以體驗這個「抽獎 APP」。<br />
 
 ### On Browser
+
 [DEMO on Browser](https://harry-chiu.github.io/react-lottery/)<br />
 你可以直接點選上方連結體驗「[抽獎 APP](https://harry-chiu.github.io/react-lottery/)」！<br />
 
