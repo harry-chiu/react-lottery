@@ -1,6 +1,30 @@
-import styled from 'styled-components';
+import styled, {
+  css,
+  keyframes,
+} from 'styled-components';
 
 const StyledWinner = {};
+
+const zoom = keyframes`
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+`;
+
+const zoomAnimation = css`
+  animation-name: ${zoom};
+  animation-duration: 3s;
+  animation-time-function: ease-in-out;
+  animation-iteration-count: infinite;
+`;
 
 StyledWinner.Container = styled.div`
   display: ${props => props.hide ? 'none' : 'flex'};
@@ -23,6 +47,7 @@ StyledWinner.Title = styled.h1`
   padding: 16px 0;
   font-size: 48px;
   letter-spacing: 4px;
+  ${zoomAnimation};
 `;
 
 StyledWinner.AvatarWrapper = styled.div`
