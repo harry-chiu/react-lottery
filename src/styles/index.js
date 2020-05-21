@@ -77,7 +77,7 @@ Styled.Modal = styled.div`
   height: 100%;
   background: transparent;
   transform: translateX(${props => props.open ? '0' : '100%'});
-  z-index: ${props => props.open ? '0' : '-1'};
+  z-index: ${props => props.open ? '9' : '-1'};
   background: #000000aa;
 `;
 
